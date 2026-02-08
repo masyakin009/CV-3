@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: #fff0f5;    
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;    
+}
+
+a {
+    color: #76656e;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #6014da;
+}
+
+/* a:visited {
+    color: #8a8686;
+} */
+
+.avatar {
+    width: 200px;
+    border-radius: 25px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 25);
+}
+
+.bg-red {
+    background-color: #f8c9c9;
+}
+
+.bg-blue {
+    background-color: #c3c3f7;
+}
+
+.bg-yellow {
+    background-color: #fff3b9;
+}
+
+.bg-green {
+    background-color: #b5fbbb;
+}
+
+.container {
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.card {
+    padding: 10px 15px;
+    /* background: red; */
+    border-radius: 15px;
+    margin: 15px 0;
+}      
+
+.kontakt {
+    background-color: #e3dcdc;
+}
+
+.kontakt form {
+    display: block;
+    font-size: 14px;
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input, textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: inherit;
+    border: none;
+}
+
+.row {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+.row > .form-group {
+    width: 100%;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 20px;
+    justify-content: center;
+    background-color: #f5a3f2;
+    padding: 15px 0px;
+}
+
+.info-text {
+    text-align: left;
+}
+
+.list li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid;
+}
+
+@media (max-width: 600px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+
+    .info-text {
+        text-align: center;
+        margin-top: 15px;
+    }
+}
+
+ol, ul {
+    text-align: left;
+    display: inline-block;
+}
+
+/* .sozial {
+    background: yellow;    
+    padding: 10px;
+} */
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+}
+
+table td {
+    padding-bottom: 10px;
+}
+
+table td:nth-child(3) {
+    color: gray;
+}
+
+table th {
+    padding-bottom: 5px;
+}
+
+.btn {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: inherit;
+}
+
+.btn:hover {
+    background-color: #f0f0f0;
+}
+
+
+

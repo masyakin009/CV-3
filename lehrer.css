@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+a {
+    color: #76656e;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #6014da;
+}
+
+body {
+    background-color: #fff0f5;    
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.youtube {
+    background-color: #f8c9c9;
+    padding: 15px 20px;
+    border-radius: 15px;
+    margin: 15px 0;
+}
